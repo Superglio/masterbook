@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Masterbook App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Masterbook</h1>
+    </header>
+    <main>
+        <form id="masterbookForm">
+            <label for="imageInput">Upload Image:</label>
+            <input type="file" id="imageInput" accept="image/*">
+            <br>
+            <label for="audioInput">Upload Audio:</label>
+            <input type="file" id="audioInput" accept="audio/*">
+            <br>
+            <label for="textInput">Enter Text:</label>
+            <textarea id="textInput" rows="5"></textarea>
+            <br>
+            <button type="submit">Analyze and Diagnose</button>
+        </form>
+        <div id="diagnosisResult"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
