@@ -18,8 +18,7 @@ Follow these instructions to get a local copy of Masterbook up and running on yo
 - Python 3.x
 
 ### Installation
-
-1. Clone the repository:
+Clone the repository:
 
    ```bash
    git clone https://github.com/superglio/masterbook.git
